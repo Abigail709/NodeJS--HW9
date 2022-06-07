@@ -45,6 +45,12 @@ const questions = [
         name: 'email',
          message: 'what is your email?',
     },
+    {
+        type: 'list',
+        message: 'Please select which license you would like to use: ',
+        name: 'license',
+        choices: ['Boost Software License 1.0', 'clipse Public License 2.0', 'MIT', 'The Unlicense', 'zLib License', 'ISC']
+    },
 ];
 
 // TODO: Create a function to write README file
